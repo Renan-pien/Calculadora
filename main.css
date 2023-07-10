@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-image: url(imagens/fundo.png);
+}
+
+
+.fundo-class{
+    position: absolute;
+    background: transparent;
+    width: 11%;
+    height: 30%;
+    margin: auto;
+    margin-top: 17%;
+    margin-left: 45%;
+    border-radius: 6px;
+}
+
+h1{
+    position: relative;
+    left: 15px;
+    bottom: 14px;
+    overflow: hidden;
+    animation: text 20s linear infinite;
+   
+}
+
+@keyframes text{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    30%{
+        width: 50px;
+        height: 0px;
+        color:Violet;
+    }
+    60%{
+        width: 220px;
+        height: 40px;
+        color:LightGrey;
+    }
+    80%{
+        width: 220px;
+        height: 30px;
+        color:black;
+    }
+    100%{
+        width: 0px;
+        height: 0px;
+        color:LightSkyBlue;
+    }
+}
+
+input{
+    position: relative;
+    top: 1px;
+    left: 11px;
+    padding: 7px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+
+table{
+    position: relative;
+    top: 12px;
+    left: 5.5px;
+}
+
+.botao{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.botao:hover{
+    transform: scale(0.90);
+}
+
+.botao:active{
+    color: DarkGrey;
+}
+
+#resultado{
+    position: relative;
+    width: 180px;
+    border-radius: 3px;
+    left: 12px;
+    padding: 11px;
+    text-align: right;
+    background-color: white;
+}
+
+
